@@ -2,9 +2,11 @@
 from os import system
 system("cls") 
 
-size   = int(input("size: "))
+lungimea= int(input("lungimea: "))
+latimea = int(input("latimea: "))
+
 n      = 1
-length = size * size 
+length = lungimea* latimea
 
 
 print()
@@ -12,7 +14,7 @@ print()
 while n <= length :
     print("+ ", end="")
 
-    if n % size ==0:
+    if n % lungimea ==0:
       print()
   
     n += 1
